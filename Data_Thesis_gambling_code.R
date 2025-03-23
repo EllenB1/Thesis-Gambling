@@ -306,7 +306,7 @@ moderator_effect_model <- felm(
 # Summarize the model
 summary(moderator_effect_model)
 
-# table
+# table moderator
 stargazer(moderator_effect_model, type = "text", title = "Moderator Effect Model Results", 
           dep.var.labels = "Insurance Choice", 
           covariate.labels = c("Previous Experience Group 2", 
